@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tree.css">
-
+<link rel="stylesheet" href="popup.css">
     <title>Career Option</title>
 </head>
 
 <body>
     <div class="navbar">
-        <a href="#logo" class="logo">Yes Yes VPS</a>
+        <a href="#logo" class="logo"> Yes Yes VPS</a>
         <ul class="nav">
             <li> <a href="#home"> home</a> </li>
             <li><a href="#About">About</a></li>
             <li> <a href="#Contact Us">Contact Us</a> </li>
             <li><a href="#Credit To">Credit To</a></li>
+            <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
 
         </ul>
 
@@ -25,91 +27,278 @@
     <div class="banner-area" id="home">
 
         <h1> Yes Yes VPS </h1>
-        <h1 style="text-align: center; color: aliceblue;">Career Options</h1>
+        <h1 style="text-align: center; color: aliceblue;">Road Map Of Education</h1>
+<h2 style="color: aquamarine; margin-left: 150px;">Introduction : </h2>
+<p style="margin-left: 350px; color: aqua;">in thi project</p>
+    
+        <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+            </script>
 
 
-
-      
-      
-      
-      
-      
-      
-        <div class="tree">
+        <div class="tree"   style=" margin-top:100px; margin-left: 150px;">
             <ul>
                 <li>
-                    <a href="#"><h1>Primary</h1></a>
+                    <a href="#" class="popup" onclick="myFunction()">
+                        <h1 >..........Pre-School (3-5 Year)...........</h1> 
+                        <span class="popuptext" id="myPopup">A preschool, also known as nursery school, pre-primary school, or play school, is an educational establishment or learning space offering early childhood education to children before they begin compulsory education at primary school. It may be publicly or privately operated, and may be subsidised from public funds.</span>
+                        
+                    </a>
                     <ul>
+
                         <li>
-                            <a href="#">child</a>
+
+                            <a href="#" class="popup" onclick="myFunction()">
+                                <h2>........Primary (5-12 Year)........</h2>
+                                <span class="popuptext" id="myPopup">A primary school, junior school (in Ireland, the UK & Australia), elementary school or grade school (in US & Canada) is a school for children from about four to eleven years old, in which they receive primary or elementary education. It can refer to both the physical structure (buildings) and the organisation. Typically it comes after preschool, and before secondary school.</span>
+                            </a>
+
                             <ul>
                                 <li>
-                                    <a href="##"> grand child</a>
-                                </li>
-                                <li>
-                                    <a href="##"> grand child2</a>
-                                </li>
-                                <li><a href="#">grand child</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">child</a>
-                            <ul>
-                                <li>
-                                    <a href="##">grand child</a> </li>
-                                <li>
-                                    <a href="#">grand child </a>
+                                    <a href="#"class="popup" onclick="myFunction()">
+                                        <h2> SSC /Secondary (12-16 Year)</h2>
+                                        <span class="popuptext" id="myPopup"></span>
+                                    </a>
                                     <ul>
-                                        <li>
-                                            <a href="#">greate grand child</a>
+                                        <li><a href=""class="popup" onclick="myFunction()">
+                                                <h2> Hsc / jr. Collage (16-18 Year)</h2>
+                                                <span class="popuptext" id="myPopup"></span>
+                                            </a>
 
+                                            <ul>
+                                                <li>
+                                                    <a href="#"class="popup" onclick="myFunction()">
+                                                        <h2>Graducation / Sr. Collage (18-21 YEAR)</h2>
+                                                        <span class="popuptext" id="myPopup"></span>
+                                                    </a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">
+                                                                <h2> Post Graducation (21-23 YEAR)</h2>
+                                                                <span class="popuptext" id="myPopup"></span>
+                                                            </a>
 
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
                                     </ul>
-                                </li>
-                                <li><a href="#">grand child </a></li>
-                                <li><a href="#">grand child </a></li>
 
                             </ul>
                         </li>
+
                     </ul>
                 </li>
+        </div>
+
+        <div class="tree" style=" margin-top:850px; ">
+            <ul>
+                <li>
+                    <a href="#">
+                        <h1> What After 10th</h1>
+                    </a>
+                    <ul>
+                        <li><a href="#">11th</a>
+                            <ul>
+                                <li><a href="#hsc">
+                                        <h2>HSC...</h2>
+                                    </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Polytechinc <br> Deploma (3 year)</a>
+                            <ul>
+                                <li><a href="#">Computer <br> Electrical <br>Electronics <br> Civil
+                                        <br> Marine <br>Fashion <br> Chemical <br> Agriculture <br> Aeronautical <br>
+                                        Automobile
+                                        <br> Architecture <br> Environmental <br>Genetic <br> Petroleum <br>Software
+
+                                    </a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">ITI (2 Year)</a>
+                            <ul>
+
+                                <li><a href="#">Fitter <br> Electrician <br>Machinist <br> Mechanic</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Govt/Railway <br> Defence <br> Jobs</a>
+                            <ul>
+                                <li><a href="#">sOLDIER <br> army <br>Train Clerk <br> RPF constable</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Apprenticenship <br> Program</a>
+                            <ul>
+                                <li><a href="#"> Training Company <br> mini job </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Job Oriented <br> Courses</a>
+                            <ul>
+                                <li><a href="#">3d animation <br> cyber security <br> Buauty Culture <br>Graphic
+                                        Designing <br> Programming <br> dtp <br> hotel management <br>photography</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </li>
+
             </ul>
 
         </div>
 
+        <div class="tree" style="margin-top: 600px; margin-left: 150px;">
+            <ul>
+                <li>
+                    <a href="#" id="hsc">
+                        <h1>WHAT AFTER 12TH</h1></a>
+                        <ul>
+                            <li><a href="#">Arts</a>
+                            <ul><li><a href="#">MBA</a></li>
+                           <li><a href="#">MA</a></li>
+                           <li><a href="#">LLB</a></li>
+                          <li><a href="#">D.ED</a></li></ul>
+                            </li>
+                            <li><a href="#">Commerce</a>
+                                <ul><li><a href="#">BBA</a></li>
+                                    <li><a href="#">BCA</a></li>
+                                    <li><a href="#">IED</a></li>
+                                   <li><a href="#">CA</a></li></ul>
+                            </li>
+                            <li><a href="#science">Science</a>
+                                
+                            </li>
+                        </ul>
+                
+                </li>
+            </ul>
 
-
-
-
+        </div>
+<div class="tree"> <ul>
+        <li><a href="#" id="science">Science</a>
+            <ul><li><a href="#">PCMB</a>
+                <ul><li><a href="#">B.ARCH</a></li>
+                    <li><a href="#">NDA</a></li>
+                    <li><a href="#">B.TECH</a></li>
+                   <li><a href="#">NAVY</a></li></ul>
+            </li>
+                <li><a href="#">PCB</a>
+                    <ul><li><a href="#">PHARMCY</a></li>
+                        <li><a href="#">DOCTOR</a></li>
+                        <li><a href="#">NURSING</a></li>
+                       <li><a href="#">MDS</a></li></ul>
+                </li>
+                <li><a href="#">PCM</a>
+                    <ul><li><a href="#">NDA</a></li>
+                        <li><a href="#">CDS</a></li>
+                        <li><a href="#">MS</a></li>
+                       <li><a href="#">MBA</a></li></ul>
+                </li></ul>
+        </li></ul>
     </div>
 
- 
+    <div class="tree" style="margin-top: 600px; ">
+        <ul><li>
+            <a href="#"><h1>What After Graducation</h1></a>
+            <ul>
+                <li><a href="#"><h2>Arts</h2> </a>
+                    <ul><li><a href="#">Govt</a></li><li><a href="#">Farmer</a></li>
+                        <li><a href="#">Labour</a></li>
+                        <li><a href="#">JOB Less</a></li>
+                       <li><a href="#">businessman</a></li></ul>
+                </li>
+                <li><a href="#"><h2>Commerce</h2> </a>
+                    <ul><li><a href="#">ca</a></li>
+                        <li><a href="#">CDS</a></li>
+                        <li><a href="#">Bank</a></li></ul>
+                       
+                </li>
+                <li><a href="#"><h2>Science</h2></a>
+                    <ul><li><a href="#">IT company</a></li>
+                        <li><a href="#">govt</a></li>
+                        <li><a href="#">PHD</a></li>
+                       <li><a href="#">DOCTRATE</a></li></ul>
+                </li>
+            </ul>
+
+        </li></ul>
+        
+    </div>
+    
+
+        <div class="text" style="margin-top: 450px;"> <h1> You can Search Goverment Job base on your qualification </h1>
+            <p>After completing Diploma Computer Engineering program, one may go for Bachelor’s Degree (B.E./B.Tech.) in Computer Engineering. 
+                In most Degree Engineering colleges, certain percentages of seats are reserved for Diploma certificate holders. This entry is known as the lateral entry. Diploma holders with good grade may make use of lateral entry and join B.E./B.Tech. Computer Engineering program’s 2nd academic year (directly). This way, Diploma holders may earn a Bachelor of Engineering/Technology Degree. After that, one may go for Master’s education. M.E./M.Tech. program will enable one to specialize in disciplines within the Computer Engineering sector. Some such areas of specialization are:-
+                <br>
+                Embedded Systems <br>  
+                VLSI Design <br>
+                Information Protection <br>
+                Computer Architecture <br>
+                Mobile Computing <br>
+                Hardware Technology <br>
+                Computer Networking <br>
+                Operating System <br>
+                Other than M.E./M.Tech., graduates may also go for MCA (Master of Computer Application) or M Sc. in Computer Science. If you are interested in management program, you may go for MBA program.</p>
+    
+        </div>
+    </div>
 
     <div class="about-area" id="About">
-        <h1>About us</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis dolorum corporis inventore amet quae qui
-            dolor quos. Minima quia dolorum consectetur, consequuntur nam quod fugit temporibus laborum quos,
-            perferendis earum!</p>
+        <h1>About This Project</h1>
+        
+        <p>After completing their formal education, a large number of students release over the wide range of 
+            career options in India. Although everybody is made for something different 
+            option for a career in India that is secure and provides a decent job satisfaction still 
+            remains one of the mainstream choices for freshers.
+
+    <br><br> I am focusing on our Department (Computer Enginerig) <br>
+
+            In this article, I was list out top major career options in India on the base of Computer Enginerig Deploma for the help to my Dear Friend </p>
 
     </div>
 
     <div class="contact-area" id="Contact Us">
-        <h1>About us</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis dolorum corporis inventore amet quae qui
-            dolor quos. Minima quia dolorum consectetur, consequuntur nam quod fugit temporibus laborum quos,
-            perferendis earum!</p>
+        <h1>Contact us</h1>
+        <p> <label for=""> Email-Id : computerdeploma2020@gmail.com </label> <br> Mobile No : 7378729053    
+            <br> Office Adress : <b>Dream Cafe</b> Shop No.3 Kamalabai complex near SNDT Collage Deopur Dhule <br>
+            <br>    Website : <br> Sharda Computer: <a href="https://pgabbar.github.io/Shardacomputer/index.html">https://pgabbar.github.io/Shardacomputer/index.html</a> 
+            <br>  <br> <br>
+            This is Mini Project submited by Mr Prashant Kedar Student of SSVPS B S DEORE Polytechinc Collage
+            dhule. <br> 
+        </p>
 
     </div>
 
     <div class="credit-area" id="Credit To">
-        <h1>About us</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis dolorum corporis inventore amet quae qui
-            dolor quos. Minima quia dolorum consectetur, consequuntur nam quod fugit temporibus laborum quos,
-            perferendis earum!</p>
+        <h1>Credit to </h1>    
+        <p>A <b> special thanks</b> to all those teachers who went the extra time to help me. 
+            That includes a big thank you to Mr Vickey for going out of her way to extend me. 
+            I appreciate that so much because it's helped me to get the results I wanted.
+<br>
+            Also, a big thanks to Mrs Surekha Patil Mam for trying and trying to teach me About Presentation. 
+            It's because of her perseverance I was able to learn that skill. 
+        <br>
+        I am saying to all my teachers thanks so much for  understand my situation and suporting me.</p>
+        <div class="photo">
+            <li><img src="surekhamam.jpg" alt="Mr Atul Sir"></li>
+            <li><img src="thakaresir.jpg" alt="Mr Atul Sir"></li>
+            <li><img src="atulsir.jpg" alt="Mr Atul Sir"></li>
+            <li><img src="shahsir.jpg" alt="Mr Atul Sir"></li>
+            
+            <li><img src="pimpalesir.jpg" alt="Mr Atul Sir"></li>
+        </div>
+        
 
     </div>
     <div class="footer">
-        <h1 style="text-align: center;"> Coppyright@ Yes Yes VPS <br>
+        <h1 style="text-align: center;"> <br><br> Coppyright@ Yes Yes VPS <br>
             Design By Mr Prashant Kailas Kedar </h1>
     </div>
 
